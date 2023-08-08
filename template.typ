@@ -1,18 +1,10 @@
-// The project function defines how your document looks.
-// It takes your content and some metadata and formats it.
-// Go ahead and customize it to your liking!
-#let project(title: none, authors: (), body) = {
-  // Set the document's basic properties.
-  set document(author: authors, title: title)
-  set page(
-    paper: "us-letter",
-    margin: (left: 0.3in, right: 0.3in, top: 0.3in, bottom: 0.3in),
-    number-align: center,
-  )
-  set text(font: "EB Garamond", lang: "en", size: 11pt, weight: 400)
+#let project(body) = {
+  set document(title: "Oliver Ni", author: ("Oliver Ni"))
+  set page(paper: "us-letter", margin: 0.3in)
 
-  set list(indent: 1em)
+  set text(font: "EB Garamond", lang: "en", size: 11pt, weight: 400)
   show par: set block(above: 0.8em, below: 0.8em)
+  set list(indent: 1em)
 
   show heading.where(level: 1): it => [
     #set text(12pt, weight: "regular")
