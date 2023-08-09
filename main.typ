@@ -22,10 +22,11 @@
   Mathematics, B.A.
 ][
   *Expected Graduation:* May 2026\
-  *Grade:* 4.0/4.0
+  *Grade:* 4.0/4.0\
+  \*ongoing
 ]
 
-*Relevant Coursework:* Data Structures · Computer Architecture · Operating Systems · Discrete Mathematics & Probability Theory · Structure and Interpretation of Computer Programs · Linear Algebra · Abstract Algebra · Real Analysis
+*Relevant Coursework:* Data Structures · Computer Architecture · Operating Systems\* · Discrete Mathematics & Probability Theory · Structure and Interpretation of Computer Programs · Linear Algebra · Abstract Algebra\* · Real Analysis\*
 
 
 = Experience
