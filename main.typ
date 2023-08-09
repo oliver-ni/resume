@@ -42,7 +42,7 @@
 ][May 2020 -- Present]
 
 - Developed chat-based Pokémon game on the messaging platform Discord, enabling *5,000,000+ users* to connect online.
-- Wrote *20,000 lines* of Python, Rust, and Elixir code using MongoDB and later PostgreSQL.
+- Wrote *20,000 lines* of Python, Rust, and Elixir code using MongoDB and PostgreSQL.
 - Scaled services to handle *2,000+ requests per second* with Kubernetes, gRPC, distributed systems.
 - Recruited and led support team with 6 administrative staff members and 30+ community moderators.
 
@@ -80,6 +80,37 @@
 
 - Developed application with React Native for my high school, serving *2,000+* students, teachers, and parents.
 - Trained team of *5* other students to continue maintaining and improving the app after my own graduation.
+
+
+= Technical Skills
+
+#let TeX = style(styles => {
+  set text(font: "New Computer Modern")
+  let e = measure("E", styles)
+  let T = "T"
+  let E = text(1em, baseline: e.height * 0.31, "E")
+  let X = "X"
+  box(T + h(-0.15em) + E + h(-0.125em) + X)
+})
+
+#let LaTeX = style(styles => {
+  set text(font: "New Computer Modern")
+  let a-size = 0.66em
+  let l = measure("L", styles)
+  let a = measure(text(a-size, "A"), styles)
+  let L = "L"
+  let A = box(scale(x: 105%, text(a-size, baseline: a.height - l.height, "A")))
+  box(L + h(-a.width * 0.67) + A + h(-a.width * 0.25) + TeX)
+})
+
+*Programming Languages:* Python · JavaScript · TypeScript · Rust · Elixir · C · Java · SQL · HTML/CSS
+
+*Web Frameworks:* React · React Native · Next.js · Remix · Svelte · SvelteKit · Vue.js · Django · Flask · Starlette
+
+*Developer Tools:* Docker · Kubernetes · Nix · #LaTeX · Typst · Linux · Git · GitHub Actions
+
+*Other Technologies:* NumPy · PyTorch · Pandas · gRPC · PostgreSQL · MongoDB · Redis · Microsoft Excel
+
 
 
 = Honors & Awards
