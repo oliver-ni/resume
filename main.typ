@@ -112,7 +112,6 @@
 *Other Technologies:* NumPy · PyTorch · Pandas · gRPC · PostgreSQL · MongoDB · Redis · Microsoft Excel
 
 
-
 = Honors & Awards
 
 #let award(title, description) = entry(
