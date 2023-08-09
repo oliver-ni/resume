@@ -67,7 +67,7 @@
 = Projects
 
 #entry[
-  #hstack[== ContestDojo][_TypeScript, React, Next.js, Remix, Firebase_]
+  #hstack[== ContestDojo][_TypeScript · React · Next.js · Remix · Firebase_]
 ][February 2021 -- Present]
 
 - Developed an online math competition platform (registration, test-taking, scoring, ranking) with React and Next.js.
@@ -75,7 +75,7 @@
 - Served *3,000+* competitors from *200+* schools in over 10 online contests so far; continuing to expand to more.
 
 #entry[
-  #hstack[== Lynbrook Mobile App][_Python, Django, PostgreSQL, TypeScript, React Native_]
+  #hstack[== Lynbrook Mobile App][_Python · Django · PostgreSQL · TypeScript · React Native_]
 ][September 2019 -- June 2022]
 
 - Developed application with React Native for my high school, serving *2,000+* students, teachers, and parents.
@@ -138,7 +138,7 @@
 
 #award(
   "Advent of Code, Global Rank 29",
-  "29/250,000+ (2022), 39/200,000+ (2021), 34/175,000+ (2020)"
+  "29/250,000+ (2022) · 39/200,000+ (2021) · 34/175,000+ (2020)"
 )
 
 #award(
