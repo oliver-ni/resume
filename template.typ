@@ -4,7 +4,7 @@
 
   set text(font: "EB Garamond", lang: "en", size: 11pt, weight: 400)
   show par: set block(above: 0.8em, below: 0.8em)
-  set list(indent: 1em)
+  show strong: it => text(weight: "semibold", it.body)
 
   show heading.where(level: 1): it => [
     #set text(12pt, weight: "regular")
@@ -18,6 +18,7 @@
     )
   ]
   show heading.where(level: 2): set text(size: 12pt)
+  set list(indent: 1em)
 
   body
 }
@@ -30,7 +31,13 @@
   below: below,
   grid(
     columns: (1fr, auto),
-    align(left + horizon, l),
-    align(right + horizon, r),
+    align(left, l),
+    align(right, r),
   )
+)
+
+#let hstack(..items) = stack(
+  dir: ltr,
+  spacing: 0.5em,
+  ..items.pos().map(x => align(horizon, x))
 )

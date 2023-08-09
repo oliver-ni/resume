@@ -1,22 +1,16 @@
 #import "template.typ": *
-
-#show: project.with(
-  title: "Resume",
-  authors: (
-    "Oliver Ni",
-  ),
-)
+#show: project
 
 #let title_items = (
-  "(123) 456-7890",
+  [(123) 456-7890],
   link("mailto:oliverni@berkeley.edu"),
-  [#fab("linkedin") #link("https://linkedin.com/in/oliverni", "oliverni")],
-  [#fab("github") #link("https://github.com/oliver-ni", "oliver-ni")]
+  link("https://linkedin.com/in/oliverni")[#fab("linkedin") oliverni],
+  link("https://github.com/oliver-ni")[#fab("github") oliver-ni],
 )
 
 // Title row.
 #align(center)[
-  #block(text(weight: 700, size: 1.5em, "Oliver Ni"))
+  #block(text(weight: 700, size: 1.5em)[Oliver Ni])
   #title_items.join([#h(0.5em)•#h(0.5em)])
 ]
 
@@ -26,27 +20,25 @@
   == University of California, Berkeley
   Electrical Engineering and Computer Sciences, B.S.\
   Mathematics, B.A.
-][Expected Graduation: May 2026]
+][
+  *Expected Graduation:* May 2026\
+  *Grade:* 4.0/4.0
+]
 
-*Grade:* 4.0
-
-*Relevant Coursework:* Data Structures, Machine Structures, Designing Information Devices and Systems, Structure and Interpretation of Computer Programs, Discrete Mathematics and Probability Theory, Linear Algebra
+*Relevant Coursework:* Data Structures · Computer Architecture · Operating Systems · Discrete Mathematics & Probability Theory · Structure and Interpretation of Computer Programs · Linear Algebra · Abstract Algebra · Real Analysis
 
 
 = Experience
 
 #entry[
-  == Apple, Inc.
-  Wireless System Simulation Intern
+  #hstack[== Apple, Inc.][_Wireless System Simulation Intern_]
 ][June -- August 2023]
 
-- Designed and built unified *data postprocessing and visualization* platform for network simulation data using *ClickHouse*
-- Platform decreases amount of time spent by team on wrangling output data into desired formats and charts
+- Accelerated wireless simulation workflow by building a unified internal platform for *data processing* and visualization
+- Designed and implemented specialized query language using *parsing expression grammars* and executed them in *ClickHouse*
 
 #entry[
-  == Pokétwo
-  Executive Director, Sole Developer (Self-employed)\
-  _Python, Rust, Elixir, MongoDB, PostgreSQL, Redis, RabbitMQ, Docker, Kubernetes_
+  #hstack[== Pokétwo][_Executive Director, Developer (Self-employed)_]
 ][May 2020 -- Present]
 
 - Developed chat-based Pokémon game on the messaging platform Discord, enabling *5,000,000+ users* to connect online.
@@ -55,8 +47,7 @@
 // - Recruited and led support team with 6 administrative staff members and 30+ community moderators.
 
 #entry[
-  == ContestDojo
-  _TypeScript, React, Next.js, Remix, Firebase_
+  #hstack[== ContestDojo][_Sole Developer_]
 ][February 2021 -- Present]
 
 - Developed an online math competition platform (registration, test-taking, scoring, ranking) with React and Next.js.
@@ -64,24 +55,21 @@
 - Served *3,000+* competitors from *200+* schools in over 10 online contests so far; continuing to expand to more.
 
 #entry[
-  == Project Code Foundation
-  Founder, President
+  #hstack[== Project Code Foundation][_Founder, President_]
 ][April 2018 -- June 2022]
 
 - Directed 2 hackathons for middle and high school students with 200+ concurrent participants each.
 - Led 30+ free online programming classes taught to *1,000+ youth* total, personally developed and taught 6 courses.
 
 #entry[
-  == Lynbrook High School
-  Mobile Application Developer
+  #hstack[== Lynbrook High School][_Mobile Application Developer_]
 ][September 2019 -- June 2022]
 
 - Developed application with React Native for my high school, serving *2,000+* students, teachers, and parents.
 - Trained team of *5* other students to continue maintaining and improving the app after my own graduation.
 
 #entry[
-  == Lynbrook High School
-  Teaching Assistant, AP Computer Science A
+  #hstack[== Lynbrook High School][_Teaching Assistant, AP Computer Science A_]
 ][
   August 2021 -- June 2022
 ]
@@ -89,6 +77,7 @@
 - Developed Visual Studio Code extension to modernize assignment download and submission for *200+ students*.
 - Extension was integrated into CS department's curriculum to replace older Eclipse IDE for smoother learning.
 - Assisted with teaching Java, Algorithms, and Data Structures to students.
+
 
 = Honors & Awards
 
