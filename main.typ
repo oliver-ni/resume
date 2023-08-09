@@ -31,7 +31,7 @@
 = Experience
 
 #entry[
-  #hstack[== Apple, Inc.][_Wireless System Simulation Intern_]
+  #hstack[== Apple][_Wireless System Simulation Intern_]
 ][June -- August 2023]
 
 - Accelerated wireless simulation workflow by building a unified internal platform for *data processing* and visualization
@@ -44,15 +44,7 @@
 - Developed chat-based Pokémon game on the messaging platform Discord, enabling *5,000,000+ users* to connect online.
 - Wrote *20,000 lines* of Python, Rust, and Elixir code using MongoDB and later PostgreSQL.
 - Scaled services to handle *2,000+ requests per second* with Kubernetes, gRPC, distributed systems.
-// - Recruited and led support team with 6 administrative staff members and 30+ community moderators.
-
-#entry[
-  #hstack[== ContestDojo][_Sole Developer_]
-][February 2021 -- Present]
-
-- Developed an online math competition platform (registration, test-taking, scoring, ranking) with React and Next.js.
-- Partnered with *Stanford*, *Berkeley*, *Johns Hopkins* to host their math tournaments throughout 2021 and 2022.
-- Served *3,000+* competitors from *200+* schools in over 10 online contests so far; continuing to expand to more.
+- Recruited and led support team with 6 administrative staff members and 30+ community moderators.
 
 #entry[
   #hstack[== Project Code Foundation][_Founder, President_]
@@ -60,13 +52,6 @@
 
 - Directed 2 hackathons for middle and high school students with 200+ concurrent participants each.
 - Led 30+ free online programming classes taught to *1,000+ youth* total, personally developed and taught 6 courses.
-
-#entry[
-  #hstack[== Lynbrook High School][_Mobile Application Developer_]
-][September 2019 -- June 2022]
-
-- Developed application with React Native for my high school, serving *2,000+* students, teachers, and parents.
-- Trained team of *5* other students to continue maintaining and improving the app after my own graduation.
 
 #entry[
   #hstack[== Lynbrook High School][_Teaching Assistant, AP Computer Science A_]
@@ -77,6 +62,24 @@
 - Developed Visual Studio Code extension to modernize assignment download and submission for *200+ students*.
 - Extension was integrated into CS department's curriculum to replace older Eclipse IDE for smoother learning.
 - Assisted with teaching Java, Algorithms, and Data Structures to students.
+
+
+= Projects
+
+#entry[
+  #hstack[== ContestDojo][_TypeScript, React, Next.js, Remix, Firebase_]
+][February 2021 -- Present]
+
+- Developed an online math competition platform (registration, test-taking, scoring, ranking) with React and Next.js.
+- Partnered with *Stanford*, *Berkeley*, *Johns Hopkins* to host their math tournaments throughout 2021 and 2022.
+- Served *3,000+* competitors from *200+* schools in over 10 online contests so far; continuing to expand to more.
+
+#entry[
+  #hstack[== Lynbrook Mobile App][_Python, Django, PostgreSQL, TypeScript, React Native_]
+][September 2019 -- June 2022]
+
+- Developed application with React Native for my high school, serving *2,000+* students, teachers, and parents.
+- Trained team of *5* other students to continue maintaining and improving the app after my own graduation.
 
 
 = Honors & Awards
