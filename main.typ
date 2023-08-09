@@ -61,7 +61,7 @@
 
 - Developed Visual Studio Code extension to modernize assignment download and submission for *200+ students*.
 - Extension was integrated into CS department's curriculum to replace older Eclipse IDE for smoother learning.
-- Assisted with teaching Java, Algorithms, and Data Structures to students.
+- Assisted with teaching Java, data structures, and algorithms to students.
 
 
 = Projects
