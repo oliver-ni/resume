@@ -32,14 +32,14 @@
 = Experience
 
 #entry[
-  #hstack[== Apple][_Wireless System Simulation Intern_]
+  #hstack[== Apple][_Software Engineering Intern_]
 ][June -- August 2023]
 
 - Accelerated wireless simulation workflow by building a unified internal platform for *data processing* and visualization
 - Designed and implemented specialized query language using *parsing expression grammars* and executed them in *ClickHouse*
 
 #entry[
-  #hstack[== Pokétwo][_Executive Director, Developer (Self-employed)_]
+  #hstack[== Pokétwo][_Creator, Lead Developer_]
 ][May 2020 -- Present]
 
 - Developed chat-based Pokémon game on the messaging platform Discord, enabling *5,000,000+ users* to connect online.
@@ -48,7 +48,7 @@
 - Recruited and led support team with 6 administrative staff members and 30+ community moderators.
 
 #entry[
-  #hstack[== Project Code Foundation][_Founder, President_]
+  #hstack[== Project Code Foundation][_President_]
 ][April 2018 -- June 2022]
 
 - Directed 2 hackathons for middle and high school students with 200+ concurrent participants each.
