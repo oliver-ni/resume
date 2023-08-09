@@ -39,5 +39,5 @@
 #let hstack(..items) = stack(
   dir: ltr,
   spacing: 0.5em,
-  ..items.pos().map(x => align(horizon, x))
+  ..items.pos().map(x => align(bottom, x))
 )
