@@ -17,7 +17,10 @@
       smallcaps(it.body)
     )
   ]
-  show heading.where(level: 2): set text(size: 12pt)
+  show heading.where(level: 2): it => {
+    text(size: 12pt, it.body)
+    h(0.3em)
+  }
   set list(indent: 1em)
 
   body
@@ -34,10 +37,4 @@
     align(left, l),
     align(right, r),
   )
-)
-
-#let hstack(..items) = stack(
-  dir: ltr,
-  spacing: 0.5em,
-  ..items.pos().map(x => align(bottom, x))
 )

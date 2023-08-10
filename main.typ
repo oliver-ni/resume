@@ -18,6 +18,7 @@
 
 #entry[
   == University of California, Berkeley
+
   Electrical Engineering and Computer Sciences, B.S.\
   Mathematics, B.A.
 ][
@@ -32,14 +33,16 @@
 = Experience
 
 #entry[
-  #hstack[== Apple][_Software Engineering Intern_]
+  == Apple
+  _Software Engineering Intern_
 ][June -- August 2023]
 
 - Accelerated wireless simulation workflow by building unified internal platform for data processing and visualization
 - Designed and implemented specialized query language using *parsing expression grammars* and executed them in *ClickHouse*
 
 #entry[
-  #hstack[== Pokétwo][_Creator, Lead Developer_]
+  == Pokétwo
+  _Creator, Lead Developer_
 ][May 2020 -- Present]
 
 - Created chat-based Pokémon game enabling *5 million users* across *1 million communities* to connect online.
@@ -47,17 +50,17 @@
 - Optimized MongoDB database to efficiently accomodate complex queries across 1.7 billion documents.
 
 #entry[
-  #hstack[== Project Code Foundation][_President_]
+  == Project Code Foundation
+  _President_
 ][April 2018 -- June 2022]
 
 - Directed 2 middle school hackathons (200+ concurrent participants each) with workshops on Python, Unity, Swift, and AI.
 - Oversaw 30+ free online programming classes taught to *1,100+ youth* total; personally wrote and taught 6 six-week courses.
 
 #entry[
-  #hstack[== Lynbrook High School][_Teaching Assistant, AP Computer Science A_]
-][
-  August 2021 -- June 2022
-]
+  == Lynbrook High School
+  _Teaching Assistant, AP Computer Science A_
+][August 2021 -- June 2022]
 
 - Modernized assignment download and submission for *180+ students* by creating VS Code extension for autograder system.
 - Fulfilled CS department's long-awaited wish to migrate from older Eclipse IDE for smoother learning experience.
@@ -67,7 +70,8 @@
 = Projects
 
 #entry[
-  #hstack[== ContestDojo][_TypeScript · React · Next.js · Remix · Firebase_]
+  == ContestDojo
+  _TypeScript · React · Next.js · Remix · Firebase_
 ][February 2021 -- Present]
 
 - Built online math competition platform hosting over *11,000+ students* in the *Stanford* and *Berkeley* Math Tournaments.
@@ -76,7 +80,8 @@
 
 
 #entry[
-  #hstack[== Lynbrook Mobile App][_Python · Django · PostgreSQL · TypeScript · React Native_]
+  == Lynbrook Mobile App
+  _Python · Django · PostgreSQL · TypeScript · React Native_
 ][September 2019 -- June 2022]
 
 - Developed cross-platform app enabling *1,400+ students* to keep up with news from the school and their clubs.
