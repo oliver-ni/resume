@@ -37,8 +37,8 @@
   _Software Engineering Intern_
 ][June -- August 2023]
 
-- Accelerated wireless simulation workflow by building unified internal platform for data processing and visualization
-- Designed and implemented specialized query language using *parsing expression grammars* and executed them in *ClickHouse*
+- Accelerated wireless simulation workflow by building unified internal platform for data processing and visualization.
+- Designed and implemented specialized query language using *parsing expression grammars* and executed them in *ClickHouse*.
 
 #entry[
   == Pokétwo
