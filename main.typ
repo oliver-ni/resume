@@ -110,7 +110,7 @@
   box(L + h(-a.width * 0.67) + A + h(-a.width * 0.25) + TeX)
 })
 
-*Programming Languages:* Python · JavaScript · TypeScript · Rust · Elixir · C · Java · SQL · HTML/CSS
+*Languages:* Python · JavaScript · TypeScript · Rust · Elixir · C · Java · SQL · HTML/CSS
 
 *Web Frameworks:* React · React Native · Next.js · Remix · Svelte · SvelteKit · Vue.js · Django · Flask · Starlette
 
