@@ -23,7 +23,7 @@
   Mathematics, B.A.
 ][
   *Expected Graduation:* May 2026\
-  *Grade:* 4.0/4.0\
+  *GPA:* 4.0/4.0\
   \* currently taking course
 ]
 
@@ -47,7 +47,7 @@
 
 - Created chat-based Pokémon game enabling *5 million users* across *1 million communities* to connect online.
 - Architected distributed systems handling *2,000+ requests per second* with Kubernetes, RabbitMQ, gRPC, and Elixir/OTP.
-- Optimized MongoDB database to efficiently accomodate complex queries across 1.7 billion documents.
+- Optimized MongoDB database to efficiently accommodate complex queries across 1.7 billion documents.
 
 #entry[
   == Project Code Foundation
