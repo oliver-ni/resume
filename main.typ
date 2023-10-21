@@ -22,7 +22,7 @@
   Electrical Engineering and Computer Sciences, B.S.\
   Mathematics, B.A.
 ][
-  *Expected Graduation:* May 2026\
+  *Expected Graduation:* May 2025\
   *GPA:* 4.0/4.0\
   \* currently taking course
 ]
