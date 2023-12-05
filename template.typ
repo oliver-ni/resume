@@ -1,6 +1,6 @@
 #let project(body) = {
   set document(title: "Oliver Ni", author: ("Oliver Ni"))
-  set page(paper: "us-letter", margin: 0.3in)
+  set page(paper: "us-letter", margin: 0.25in)
 
   set text(font: "EB Garamond", lang: "en", size: 11pt, weight: 400)
   show par: set block(above: 0.8em, below: 0.8em)
@@ -12,7 +12,7 @@
       width: 100%,
       stroke: (bottom: 0.5pt),
       inset: (bottom: 0.5em),
-      above: 1em,
+      above: 1.3em,
       below: 0.8em,
       smallcaps(it.body)
     )
