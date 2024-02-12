@@ -53,7 +53,7 @@ Data Structures
 
 #entry[
   == Apple
-  _Software Engineering Intern_
+  _Hardware Technology Intern_
 ][June -- August 2023]
 
 - Accelerated wireless simulation workflow by building unified internal platform for data processing and visualization.
