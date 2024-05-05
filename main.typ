@@ -2,7 +2,7 @@
 #show: project
 
 #let title_items = (
-  [(123) 456-7890],
+  sys.inputs.at("phone", default: none),
   link("mailto:oliverni@berkeley.edu"),
   link("https://linkedin.com/in/oliverni")[#fab("linkedin") oliverni],
   link("https://github.com/oliver-ni")[#fab("github") oliver-ni],
@@ -11,7 +11,7 @@
 // Title row.
 #align(center)[
   #block(text(weight: 700, size: 1.5em)[Oliver Ni])
-  #title_items.join([#h(0.5em)•#h(0.5em)])
+  #title_items.filter(x => x != none).join([#h(0.5em)•#h(0.5em)])
 ]
 
 
