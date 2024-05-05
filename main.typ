@@ -31,12 +31,14 @@
 *Relevant Coursework:*
 Data Structures
 · Computer Architecture
-· Operating Systems\*
+· Operating Systems
+· Graphics\*
+· Structure & Interpretation of Computer Programs
 · Discrete Mathematics & Probability Theory
-· Structure and Interpretation of Computer Programs
 · Linear Algebra
-· Abstract Algebra\*
-· Real Analysis\*
+· Abstract Algebra
+· Real Analysis
+· Category Theory\*
 // #h(1fr) \* currently taking course
 
 
@@ -171,8 +173,8 @@ Data Structures
 )
 
 #award(
-  "Advent of Code, Global Rank 29",
-  "29/250,000+ (2022) · 39/200,000+ (2021) · 34/175,000+ (2020)"
+  "Advent of Code, Global Rank 17",
+  "17/225,000+ (2023) · 29/250,000+ (2022) · 34/175,000+ (2020)"
 )
 
 #award(
