@@ -29,15 +29,20 @@
 ][
   *Relevant Coursework:*
   Data Structures
-  · Computer Architecture
   · Operating Systems
-  · Graphics\*
-  · Structure & Interpretation of Computer Programs
-  · Discrete Mathematics & Probability Theory
+  · Computer Architecture
+  · Graphics
+  // · Structure & Interpretation of Computer Programs
+  // · Discrete Mathematics & Probability Theory
+  · Computer Security
+  · Programming Languages and Compilers
+  · Internet Architecture
   · Linear Algebra
   · Abstract Algebra
   · Real Analysis
-  · Category Theory\*
+  · Category Theory
+  · Logic\*
+
   // #h(1fr) \* currently taking course
 ]
 
@@ -56,6 +61,16 @@
 ]
 
 #entry[
+  == Jane Street
+  _Software Engineering Intern_
+][
+  May -- August 2024
+][
+  - Added feature to firm-wide statistical analysis service and its downstream clients, unlocking new trade opportunities.
+  - Designed and built readiness monitoring and rolling updates for infrastructure management system powering *10,000+* machines.
+]
+
+#entry[
   == Apple
   _Hardware Technology Intern_
 ][
@@ -66,25 +81,25 @@
 ]
 
 #entry[
-  == UC Berkeley AUTOLab
-  _Undergraduate Researcher, Systems Administrator_
-][
-  August 2023 -- Present
-][
-  - Managed GPU compute cluster and desktop workstations for *30+ researchers* in robotics, computer vision, and machine learning.
-  - Deployed centralized authentication server supporting LDAP, enabling single sign-on across all lab workstations and servers.
-  - Automated deployment and configuration of new workstations with Ansible, reducing setup time from hours to minutes.
-]
-
-#entry[
-  == UC Berkeley Open Computing Facility
+  == Open Computing Facility
   _Site Manager_
 ][
   July 2023 -- Present
 ][
   - Administered Linux infrastructure serving *petabytes of data* annually for *80,000+ students and faculty* as technical lead.
   - Architected and built new bare-metal Kubernetes infrastructure, directing migration of *40+ services* from legacy systems.
-  - Developed bespoke Infrastructure-as-Code tool to declaratively automate continuous building and deployment on the new cluster.
+  // - Developed bespoke Infrastructure-as-Code tool to declaratively automate continuous building and deployment on the new cluster.
+  - Built *30+* new desktop computers running *NixOS*-based declarative system configuration, replacing legacy Puppet systems.
+]
+
+#entry[
+  == CS 162: Operating Systems
+  _Undergraduate Course Staff 1_
+][
+  January -- May 2024
+][
+  - Taught *400+ students* operating systems concepts (processes and isolation, threading, virtual memory, file systems, distributed)
+    through hosting office hours, review sessions, and answering online discussion board questions as course tutor.
 ]
 
 
@@ -164,15 +179,15 @@
   "17/225,000+ (2023) · 29/250,000+ (2022) · 34/175,000+ (2020)"
 )
 
-#award(
-  "American Invitational Mathematics Examination, Qualifier",
-  "Top 5% of AMC 12 participants (2019, 2021, 2022)"
-)
+// #award(
+//   "American Invitational Mathematics Examination, Qualifier",
+//   "Top 5% of AMC 12 participants (2019, 2021, 2022)"
+// )
 
-#award(
-  "USA Physics Olympiad, Semifinalist",
-  "Top ~400 pre-college students in US (2020, 2022)"
-)
+// #award(
+//   "USA Physics Olympiad, Semifinalist",
+//   "Top ~400 pre-college students in US (2020, 2022)"
+// )
 
 #award(
   "Eagle Scout",
