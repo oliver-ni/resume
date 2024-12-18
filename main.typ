@@ -79,31 +79,6 @@ Data Structures
 - Architected and built new bare-metal Kubernetes infrastructure, directing migration of *40+ services* from legacy systems.
 - Developed bespoke Infrastructure-as-Code tool to declaratively automate continuous building and deployment on the new cluster.
 
-// #entry[
-//   == Apple Pi Learning
-//   _Deep Learning Course Instructor_
-// ][June -- September 2020]
-
-// - Prepared and taught 12-week course on Deep Learning fundamentals (linear algebra and calculus for feed-forward NNs).
-// - Guided students to create their own projects using deep learning models to classify images.
-
-// #entry[
-//   == Project Code Foundation
-//   _President, Instructor_
-// ][April 2018 -- June 2022]
-
-// - Directed 2 middle school hackathons (200+ concurrent participants each) with workshops on Python, Unity, Swift, and AI.
-// - Oversaw 30+ free online programming classes taught to *1,100+ youth* total; personally wrote and taught 6 six-week courses.
-
-// #entry[
-//   == Lynbrook High School
-//   _Teaching Assistant, AP Computer Science A_
-// ][August 2021 -- June 2022]
-
-// - Modernized assignment download and submission for *180+ students* by designing and developing VS Code autograder system.
-// // - Enabled CS department to migrate curriculum from older Eclipse IDE for smoother learning experience.
-// - Taught students Java, data structures (BSTs, heaps, hash tables), and algorithms (searching, sorting, graph traversals).
-
 
 = Projects
 
