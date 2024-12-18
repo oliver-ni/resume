@@ -3,7 +3,7 @@
   set page(paper: "us-letter", margin: 0.25in)
 
   set text(font: "EB Garamond", lang: "en", size: 11pt, weight: 400)
-  show par: set block(above: 0.8em, below: 0.8em)
+  set par(spacing: 0.8em)
   show strong: it => text(weight: "semibold", it.body)
 
   show heading.where(level: 1): it => [
@@ -30,11 +30,13 @@
 #let fas(name) = text(font: "Font Awesome 6 Free Solid", name)
 #let far(name) = text(font: "Font Awesome 6 Free", name)
 
-#let entry(l, r, below: 0.8em) = block(
+#let entry(l, r, content, below: 1.2em) = block(
   below: below,
   grid(
+    gutter: 0.8em,
     columns: (1fr, auto),
     align(left, l),
     align(right, r),
+    ..if content != none { (grid.cell(colspan: 2, content),) }
   )
 )
