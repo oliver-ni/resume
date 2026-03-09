@@ -12,7 +12,7 @@
       width: 100%,
       stroke: (bottom: 0.5pt),
       inset: (bottom: 0.5em),
-      above: 1.3em,
+      above: 1.2em,
       below: 0.8em,
       smallcaps(it.body)
     )
